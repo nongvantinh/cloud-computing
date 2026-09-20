@@ -1,0 +1,18 @@
+\xpg@aux {}{vietnamese}
+\contentsline {chapter}{\numberline {11}Bảo mật đám mây}{1}{chapter.11}%
+\contentsline {section}{Các khái niệm sơ bộ}{1}{section*.2}%
+\contentsline {section}{\numberline {11.1}Bảo mật dữ liệu}{2}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Kỹ thuật mã hóa trong Đám mây}{3}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Mã hóa dựa trên thuộc tính theo chính sách khóa phi tập trung}{4}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Trò chơi bảo mật}{4}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Mã hóa đồng cấu toàn phần (FHE)}{5}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.4}Mã hóa có thể tìm kiếm}{6}{subsection.11.2.4}%
+\contentsline {subsection}{\numberline {11.2.5}Dịch vụ xử lý web (WPS)}{6}{subsection.11.2.5}%
+\contentsline {section}{\numberline {11.3}Bảo mật hạ tầng}{7}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Bảo mật hạ tầng: cấp độ mạng}{8}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Bảo mật hạ tầng theo lược đồ vùng tin cậy (TZ)}{9}{subsection.11.3.2}%
+\contentsline {section}{\numberline {11.4}Bảo mật ứng dụng PaaS}{10}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Bảo mật ứng dụng SaaS}{11}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Lược đồ FHE cho bảo mật SaaS}{12}{subsection.11.5.1}%
+\contentsline {section}{\numberline {11.6}Bảo mật máy chủ ảo}{13}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Các biện pháp kiểm soát bảo mật đám mây}{14}{section.11.7}%

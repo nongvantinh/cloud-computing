@@ -1,0 +1,49 @@
+% Shared packages and macros for the whole book.
+% XeLaTeX with Vietnamese support.
+% The book text is Vietnamese, so Vietnamese is the default language (this
+% gives Vietnamese captions: "Chương", "Hình", "Bảng", "Mục lục", ...).
+% English is kept as a secondary language for quoted English terms.
+% Note: polyglossia is used on its own here; babel must not be loaded
+% alongside it under XeLaTeX.
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+
+% ---------------------------------------------------------------------
+% Learning Objectives box: a boxed title followed by the objectives list.
+% Mirrors the source book's framed "Learning Objectives" heading.
+% ---------------------------------------------------------------------
+\newenvironment{learningobjectives}
+  {\noindent\fbox{\textbf{Learning Objectives}}\par\smallskip\noindent}
+  {\par\bigskip}
+
+% ---------------------------------------------------------------------
+% Multiple-choice question with four options laid out in a 2x2 grid,
+% matching the "Objective type questions" layout in the source book.
+% Usage: \mcq{<question number and text>}{(a) opt}{(b) opt}{(c) opt}{(d) opt}
+% ---------------------------------------------------------------------
+\newcommand{\mcq}[5]{%
+  \par\noindent#1\par\smallskip
+  \noindent
+  \begin{tabular}{@{}p{0.46\linewidth}@{\hspace{2em}}p{0.46\linewidth}@{}}
+  #2 & #3 \\[6pt]
+  #4 & #5
+  \end{tabular}
+  \par\bigskip
+}
+
+% Unnumbered run-in mini-heading used for chapter back-matter sections
+% (Summary, Keywords, Objective type questions, Bibliography, ...).
+\newcommand{\backsection}[1]{\subsection*{#1}}
